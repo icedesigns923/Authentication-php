@@ -25,11 +25,13 @@ require "2-check.php";
       <label for="password">Password</label>
       <input type="password" name="password" required/>
       <input type="submit" value="Sign In"/>
+      
       <br>
       <br>
       Don't have an account? <a href="register.php"> Register here</a>
-      </form>
+      
     
-    </body>
-</html>
+    </form>
+      </body>
+      </html>
   

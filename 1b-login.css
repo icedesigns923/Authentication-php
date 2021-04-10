@@ -20,7 +20,7 @@ html, body { font-family: arial, sans-serif; }
   margin-top: 10px;
 }
 #login-form input { padding: 10px; }
-#login-form input[type=submit] {
+#login-form input[type= submit] {
   background: #ad4343;
   color: #fff;
   border: 0;

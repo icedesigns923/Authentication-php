@@ -2,7 +2,9 @@
 // (A) START SESSION 
 session_start();
 
-// (B) HANDLE LOGIN
+
+ // (B) HANDLE LOGIN 
+
 if (isset($_POST['user']) && !isset($_SESSION['user'])) {
   // (B1) USERS & PASSWORDS - SET YOUR OWN !
   $users = [
@@ -20,15 +22,17 @@ if (isset($_POST['user']) && !isset($_SESSION['user'])) {
 
   // (B3) FAILED LOGIN FLAG
   if (!isset($_SESSION['user'])) { $failed = true; }
-}
+} 
 
 // (C) REDIRECT USER TO HOME PAGE IF SIGNED IN
 if (isset($_SESSION['user'])) {
-  header("Location: register.php"); // THIS IS MY HOME PAGE!
+  header("Location: index.php"); // THIS IS MY HOME PAGE!
   exit();
 
-//   // (D) REDIRECT USER TO SIGNIN PAGE IF REGISTERED
+  // (D) REDIRECT USER TO SIGNIN PAGE IF REGISTERED
 $_SESSION['user']=$_POST['user'];
 $_SESSION['password']= $_POST['password'];
 header("location: register.php");
 }
+
+?>
