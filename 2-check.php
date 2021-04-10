@@ -35,4 +35,9 @@ $_SESSION['password']= $_POST['password'];
 header("location: register.php");
 }
 
+// // Check if the user is logged in, otherwise redirect to login page
+// if(!isset($_SESSION["user"]) || $_SESSION["password"] !== true){
+//     header("location: index.php");
+//     exit;
+//     }
 ?>
