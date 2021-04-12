@@ -85,7 +85,7 @@ fclose ($fp);
 
   <br>
   <br>
-  Already have an account? <a href= "index.php"> Login</a>
+  Already have an account? <a href= "login.php"> Login</a>
 </form>
 
 </body>

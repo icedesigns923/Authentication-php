@@ -25,10 +25,13 @@ require "2-check.php";
       <label for="password">Password</label>
       <input type="password" name="password" required/>
       <input type="submit" value="Sign In"/>
-      <div class=" btn reset"> <input type="reset" value=Reset></div>
+      <!-- <div class=" btn reset"> <input type="reset" value=Reset></div> -->
       <br>
       <br>
       Don't have an account? <a href="register.php"> Register here</a>
+      <br>
+      <br>
+      <a href= "forgot.php"> Forgot password</a>
       
     
     </form>
